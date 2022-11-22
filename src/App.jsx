@@ -31,7 +31,7 @@ const closeForm=()=>{
   }
   return (
     <Container>
-          <Button onClick={showForm} className='add'>AddUser</Button>
+          {/* <Button onClick={showForm} className='add'>AddUser</Button> */}
       <UserList persons={persons} deleteUser={deleteUser} />
      { <AddUser userHandler={userHandler} closeForm ={closeForm}/>}
     </Container>
@@ -39,3 +39,5 @@ const closeForm=()=>{
 };
 
 export default App;
+
+
